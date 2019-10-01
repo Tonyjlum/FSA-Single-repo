@@ -24,7 +24,7 @@ class Login extends Component {
           className= "login-form"
           onChange={this.handleChange}
           onSubmit={this.handleSubmit}>
-          <h2>Sign In</h2>
+          <h2 className="center-text">Sign In</h2>
           <input
             className="form-input"
             id="email"
